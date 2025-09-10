@@ -34,3 +34,10 @@ filtered_data = data[data[DATE_COLUMN].dt.hour == hour_to_filter]
 
 st.subheader('Map of all pickups at %s:00' % hour_to_filter)
 st.map(filtered_data)
+
+# 5 visualisaties:
+# Kaart met locaties van airbnb's (interactief)
+#
+# Gemiddelde airbnb prijs per wijk
+# Relatie tussen prijs en aantal reviews
+#
